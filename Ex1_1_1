@@ -1,0 +1,14 @@
+public class Ex1_1_1 {
+	public void ex111(){
+		int a = (0 + 15 ) / 2;
+		double b = 2.0e-6 * 100000000.1;
+		boolean c = true && false || true && true;
+		System.out.println("(0 + 15 ) / 2 is " + a);
+		System.out.println("2.0e-6 * 100000000.1 is " + b);
+		System.out.println("true && false || true && true is " + c);
+	}
+	public static void main(String[] args) {
+		Ex1_1_1 ex = new Ex1_1_1();
+		ex.ex111();
+	}
+}
